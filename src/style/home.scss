@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Handlee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Handlee', cursive;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  color: #9e5947;
+}
+
+h3 {
+  font-family: 'Courgette', cursive;
+  color: #9e5947;
+}
+
+main{
+  margin-top: 0;
+}
+
+.img--logo{
+  width: 2rem;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subTitle {
+  font-family: 'Courgette', cursive;
+  color: #9e5947;
+  margin-top: 1rem;
+}
+
+nav{
+  width: 100%;
+  background: #ae9994;
+}
+nav .wrapper{
+  position: relative;
+  max-width: 1300px;
+  padding: 0px 30px;
+  height: 70px;
+  line-height: 70px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .logo a{
+  color: #f2f2f2;
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.container__base{
+  margin: 2rem;
+}
