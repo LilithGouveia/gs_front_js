@@ -1,23 +1,11 @@
+import Header from '../../components/Header';
 import { Row, Col, Image, Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style/home.scss';
 export default function Home() {
   return (
     <>
-      <header>
-        <nav>
-          <div className='wrapper'>
-            <img
-              src='../../../public/vv-logo.png'
-              alt='imagem logo'
-              className='img--logo'
-            />
-            <div className='logo'>
-              <a href='#'>Sair</a>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
       <main>
         <div className='container__base'>
           <Row>
@@ -86,58 +74,58 @@ export default function Home() {
           </Row>
         </div>
         <div className='container__base'>
-        <Row>
-          <h2 className='subTitle'>Fortalecendo o nosso vínculo:</h2>
-          <Col className='mb-3'>
-            <Card style={{ width: '18rem' }} className='m-1'>
-              <Card.Img
-                variant='top'
-                src='https://s2.glbimg.com/7AxnM2zLsRz1NpYTZUDe41v9TsE=/e.glbimg.com/og/ed/f/original/2015/03/27/o-que-e-pre-eclampsia.jpg'
-              />
-              <Card.Body>
-                <Card.Title>
-                  Auxiliando o controle da saúde na gravidez
-                </Card.Title>
-                <Card.Text>
-                  Rastreamento em dias, horas e semanas, com gráficos simples,
-                  facilitando a visualização.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card style={{ width: '18rem' }} className='m-1'>
-              <Card.Img
-                variant='top'
-                src='https://maislaudo.com.br/wp-content/uploads/2023/01/sintomas-de-pressao-alta.jpg'
-              />
-              <Card.Body>
-                <Card.Title>Informações simplificadas</Card.Title>
-                <Card.Text>
-                  Informando a sua pressão de forma simples, trazendo maior
-                  compreensão para pessoas em todas as faixas de idade.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card style={{ width: '18rem' }} className='m-1'>
-              <Card.Img
-                variant='top'
-                src='https://onmed.com.br/wp-content/uploads/2022/12/post_thumbnail-b196977d24e0419466bc08b47e579401.jpeg'
-              />
-              <Card.Body>
-                <Card.Title>
-                  Informação diretamente para o seu médico
-                </Card.Title>
-                <Card.Text>
-                  Configure contatos de emergência que serão avisados caso a sua
-                  pressão apresente irregularidades.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+          <Row>
+            <h2 className='subTitle'>Fortalecendo o nosso vínculo:</h2>
+            <Col className='mb-3'>
+              <Card style={{ width: '18rem' }} className='m-1'>
+                <Card.Img
+                  variant='top'
+                  src='https://s2.glbimg.com/7AxnM2zLsRz1NpYTZUDe41v9TsE=/e.glbimg.com/og/ed/f/original/2015/03/27/o-que-e-pre-eclampsia.jpg'
+                />
+                <Card.Body>
+                  <Card.Title>
+                    Auxiliando o controle da saúde na gravidez
+                  </Card.Title>
+                  <Card.Text>
+                    Rastreamento em dias, horas e semanas, com gráficos simples,
+                    facilitando a visualização.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card style={{ width: '18rem' }} className='m-1'>
+                <Card.Img
+                  variant='top'
+                  src='https://maislaudo.com.br/wp-content/uploads/2023/01/sintomas-de-pressao-alta.jpg'
+                />
+                <Card.Body>
+                  <Card.Title>Informações simplificadas</Card.Title>
+                  <Card.Text>
+                    Informando a sua pressão de forma simples, trazendo maior
+                    compreensão para pessoas em todas as faixas de idade.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card style={{ width: '18rem' }} className='m-1'>
+                <Card.Img
+                  variant='top'
+                  src='https://onmed.com.br/wp-content/uploads/2022/12/post_thumbnail-b196977d24e0419466bc08b47e579401.jpeg'
+                />
+                <Card.Body>
+                  <Card.Title>
+                    Informação diretamente para o seu médico
+                  </Card.Title>
+                  <Card.Text>
+                    Configure contatos de emergência que serão avisados caso a
+                    sua pressão apresente irregularidades.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </main>
     </>
